@@ -14,7 +14,7 @@ const AdminContextProvider = (props) => {
 
     const [doctors, setDoctors] = useState([])
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://hospital-backend-iifr.onrender.com"
 
     const getAllDoctors = async () => {
         try {
